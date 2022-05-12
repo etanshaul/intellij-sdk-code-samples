@@ -37,4 +37,7 @@
     </group>
   </actions>
 
+  <extensions defaultExtensionNs="com.jetbrains">
+    <gatewayConnector implementation="org.intellij.sdk.kotlin.WorkstationsConnector"/>
+  </extensions>
 </idea-plugin>

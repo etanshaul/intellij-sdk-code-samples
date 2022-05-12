@@ -19,7 +19,13 @@ java {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-  version.set("2021.2.4")
+  version.set("221.5080.210")
+  type.set("IU")
+}
+
+dependencies {
+  implementation(files("lib/gateway-221.5080.210.jar"))
+  implementation(files("lib/gateway-core-221.5080.210.jar"))
 }
 
 tasks {
